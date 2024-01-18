@@ -1,0 +1,2 @@
+Flask==2.3.2
+Flask_HTTPAuth==4.8.0

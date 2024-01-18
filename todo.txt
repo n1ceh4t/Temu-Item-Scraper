@@ -1,0 +1,7 @@
+better json request building
+
+use multiple images
+
+remove background from images
+
+Clean up requirements.txt
