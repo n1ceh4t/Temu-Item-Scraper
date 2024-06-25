@@ -1,3 +1,5 @@
+[NOTICE: This is provided as-is and likely will not function as described below.]
+
 This is a useful project for scraping items from temu.com to list on your e-commerce site. 
 
 ![temu](https://github.com/n1ceh4t/Temu-Item-Scraper/assets/119663530/9fc4afb2-f9f2-49c5-804c-09d6f0559caf)
