@@ -48,17 +48,6 @@ def tbd():
       status = "Success!"
    return render_template('executed.html', status=status,output=esc)
    #return out
-
-@app.route('/api_ip',methods = ['POST', 'GET'])
-@auth.login_required
-def tbd_ip():
-   cmd = request.form['lol']
-   x = subprocess.Popen(cmd.split(), stdout=subprocess.PIPE)
-   out, err = x.communicate()
-   esc = escape_ansi(out.decode())
-   return render_template('ip_checked.html', output=esc)
-   #return out
-
 @app.route('/cmd')
 @auth.login_required
 def exec():
